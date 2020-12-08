@@ -32,7 +32,7 @@ The JSON file must have this structure:
 }
 ```
 
-An arbitrary number of column headers is supported.
+An arbitrary number of column headers and data rows are supported.
 
 ### Project approach
 The JSON file is parsed and deserialized with [Json.NET](https://github.com/jilleJr/Newtonsoft.Json-for-Unity).
