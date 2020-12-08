@@ -15,6 +15,7 @@ The JSON file must have this structure:
     {
       "ID": "001",
       "Name": "John Doe"
+    },
     {
       "ID": "023",
       "Name": "Claire Dawn"
