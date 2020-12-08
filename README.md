@@ -1,4 +1,6 @@
 # Unity JSON UI test
+*Unity version: 2020.1.16f1.*
+
 Reads a specified file from the streaming assets folder and renders a table using the data. By default this file name is "JsonChallenge.json".
 
 Any changes made to the JSON file are hot-reloaded into the table.
