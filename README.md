@@ -1,7 +1,7 @@
 # Unity JSON UI test
 *Unity version: 2020.1.16f1.*
 
-Reads a specified file from the streaming assets folder and renders a table using the data. By default this file name is "JsonChallenge.json".
+Reads a specified file from the streaming assets folder and renders a table using the data. By default this file name is `JsonChallenge.json`.
 
 Any changes made to the JSON file are hot-reloaded into the table.
 
@@ -35,6 +35,8 @@ The JSON file must have this structure:
 ```
 
 An arbitrary number of column headers and data rows are supported.
+
+To check out the project open the `MainScene` scene in `Assets/Game/Scenes`.
 
 ### Project approach
 The JSON file is parsed and deserialized with [Json.NET](https://github.com/jilleJr/Newtonsoft.Json-for-Unity).
